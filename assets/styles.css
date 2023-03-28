@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*NAV*/
+
+.contenedor-header{
+    background: black;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 99;
+}
+
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 3%;
+}
+
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 2em;
+    color: #22cd1f;
+    text-decoration: none;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 1em;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.contenedor-header header nav ul li a:hover{
+    color: #22cd1f;
+}
+
+.nav-responsive{
+    background-color: #22cd1f;
+    color:black;
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Inicio */
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(img/bg.jpeg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+}
+
+.inicio .contenido-banner{
+    padding: 2%;
+    background-color: black;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.inicio .contenido-banner img{
+    margin-top: 1em;
+    border: 10px solid #22cd1f;
+    display: block;
+    width: 80%;
+    margin:auto;
+    border-radius:100%
+}
+
+.inicio .contenido-banner h1{
+    margin-top: 1.3em;
+    font: 1em;
+    font-family: 'Righteous';
+}
+
+.inicio .contenido-banner h2{
+    font-size: .75em;
+    font-weight: normal;
+    margin-top: 3%;
+}
+
+.inicio .contenido-banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    margin: 3%;
+    font-size: 1.2em;
+    transition: .3s;
+}
+
+.inicio .contenido-banner .redes a:hover{
+    background-color: #22cd1f;
+}
+
+.about{
+    background-color: black;
+    color:#fff;
+    padding: 4% 2%;
+}
+
+.about .contenido-seccion{
+    max-width: 1100px;
+    margin:auto;
+
+}
+
+.about h2{
+    font-size: 2em;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 2% 0;
+}
+
+.about .contenido-seccion p{
+    font:1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.about .contenido-seccion p span{
+    color: #22cd1f;
+    font-weight: bold;
+}
+
+.about .fila{
+    display: flex;
+}
+
+.about .fila .col {
+    width: 70%;
+}
+
+.about .fila .col h3{
+    font-size: 2em;
+    font-family: 'Righteous';
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.about .fila .col ul{
+    list-style: none;
+}
+
+.about .fila .col ul li{
+    margin: .75em 0;
+}
+
+.about .fila .col ul li strong{
+    display: inline-block;
+    color: #22cd1f;
+}
+
