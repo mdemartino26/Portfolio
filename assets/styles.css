@@ -210,7 +210,7 @@ html {
 /* Habilidades */
 
 .habilidades{
-    background-color: black;
+    background-color: rgb(18, 17, 17);
     color:#fff;
     padding: 4% 2%;
 }
@@ -226,4 +226,65 @@ html {
     font-family: 'Righteous';
     text-align: center;
     padding: 2% 0;
+}
+
+.habilidades .fila{
+    display: flex;
+}
+
+.habilidades .fila .col{
+    width: 50%;
+    padding: 0 1em;
+}
+
+.habilidades .fila .col h3{
+    font-size: 2em;
+    font-family: 'Righteous';
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.habilidades .habilidad > span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.habilidades .habilidad .barra-habilidad{
+    height: 1.3em;
+    width: 80%;
+    background-color: #000000;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.habilidades .habilidad .progreso{
+    background-color: #22cd1f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.3em;
+}
+
+.habilidades .skill .barra-habilidad span{
+    position: absolute;
+    height: 3em;
+    width: 2em;
+    background-color: #22cd1f;
+    border-radius: 50px;
+    line-height: 3em;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 1em;
+} 
+
+.habilidades .habilidad .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width:75%;}
 }
