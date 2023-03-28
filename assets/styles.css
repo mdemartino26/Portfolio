@@ -205,3 +205,25 @@ html {
 .about button:hover .overlay{
     width: 100%;
 }
+
+
+/* Habilidades */
+
+.habilidades{
+    background-color: black;
+    color:#fff;
+    padding: 4% 2%;
+}
+
+.habilidades .contenido-seccion{
+    max-width: 1100px;
+    margin:auto;
+
+}
+
+.habilidades h2{
+    font-size: 2em;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 2% 0;
+}
