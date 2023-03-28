@@ -178,3 +178,30 @@ html {
     color: #22cd1f;
 }
 
+.about button{
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin-top: 1em;
+    padding: 1em;
+    position: relative;
+    z-index: 10;
+}
+
+.about button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #22cd1f;
+    z-index: -1;
+    transition: 1s;
+}
+
+.about button:hover .overlay{
+    width: 100%;
+}
