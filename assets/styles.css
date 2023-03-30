@@ -463,3 +463,9 @@ html {
     margin-bottom: 1%;
     display: block;
 }
+
+.resume .fila .item .fecha{
+    font-size: .75em;
+    margin-bottom: 1%;
+    display: block;
+}
